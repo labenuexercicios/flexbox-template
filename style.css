@@ -2,3 +2,77 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 10vh;
+    align-items: center;
+    background-color: orangered;
+}
+
+main {
+    min-height: 80vh;
+    background-color: white;
+}
+
+footer {
+    border: 1px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(224, 211, 24);
+    gap: 10px;
+    margin: 10px;
+}
+
+.parte {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+li {
+    border: 1px solid black ;
+    padding: 10px;
+    background-color: rgb(255, 255, 0);
+}
+
+.galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.imagens {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.text {
+    padding: 10px;
+}
+
+.img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+/* Usar <figcaption> no lugar de <p> */
