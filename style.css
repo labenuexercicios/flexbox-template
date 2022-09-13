@@ -2,3 +2,60 @@
     margin: 0;
     padding: 0;
 }
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    height: 10vh;
+    align-items: center;
+    background-color: orange;
+}
+main{
+    min-height: 80vh;
+    background-color: beige;
+}
+footer{
+    border: 1px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color:orange;
+}
+.parte{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    background-color: lightgray;
+    gap: 10px;
+    margin: 10px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+li{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: beige;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.imagem{
+    width: 200px;
+    height: 300px;
+    display: flex;
+}
+figcaption{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid black;
+}
