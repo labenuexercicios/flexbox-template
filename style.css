@@ -33,12 +33,12 @@ footer{
     margin: 10px;
 }
 
-.galeria{
+/* .galeria{
     display: flex;
     flex-wrap: nowrap;
     margin: 10px;
     gap: 10px;
-}
+} */
 
 .img{
     border: 1px solid black;
