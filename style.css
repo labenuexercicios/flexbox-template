@@ -1,4 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Padding-section {
+  padding: 0 1rem;
+}
+
+
+header {
+  border: solid 1px black;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  background-color: lightblue;
+  flex-grow: 3;
+}
+
+footer {
+    background-color: lightgoldenrodyellow;
+    height: 5vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.colunas{
+    display: flex;
+    border: 1px solid black;
+}
+
+.esquerda{
+    flex: 1;
+    border: 1px solid black;
+}
+
+.meio{
+    flex-basis: 250vh;
+    border: 1px solid black;
+}
+
+.direita{
+    flex: 1;
+    border: 1px solid black;
+}
+
+section{
+    display: flex;
+}
+figure{
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: column;
+    padding: 16px;
+    height: 200px;
+    align-items: center;
 }
