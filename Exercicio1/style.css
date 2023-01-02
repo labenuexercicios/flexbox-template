@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* colocar borda */
+    border: 1px solid black;
+    /* Deixar os itens flexiveis pra alterar sua localidade */
+    display: flex;
+    /* Colocar espaços entre os itens */
+    justify-content: space-between;
+    /* Dar espaço envolta dos itens */
+    padding: 8px;
+    /* Alinhar os itens no centro */
+    align-items: center;
+    /* Dando espaço de pra altura da tela */
+    /* height: 5vh; */
+}
+
+main{
+    background-color: aquamarine;
+    /* height: 90vh; */
+    flex-grow: 1;
+    display: flex;
+    /* align-items: center; */
+    
+}
+
+article{
+    flex-grow: 4;
+    flex-wrap: nowrap;
+    padding: 10px 10px;
+}
+
+#aside1{
+    flex-grow: 2;
+}
+
+#aside2{
+    flex-grow: 1;
+}
+
+/* aside{
+    display: flex;
+    flex-direction: column;
+} */
+
+footer{
+    background-color: chartreuse;
+    /* height: 5vh; */
+}
+
+.container{
+    /* Height é pra preencher a altura da pagina.*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.border{
+    border: 1px solid black;
+}
