@@ -1,66 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tp-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prática de Grid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Prática de Flex</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <section>
             <h2>Logo</h2>
         </section>
         <section>
-            <button>Logout</button>
+            <button id="btn">Logout</button>
         </section>
     </header>
 
-    <main>
-        <section>
-            <article>
+    <main id="main">
+        <section class="container">
+            <nav class="parte">
+                <ol id="link">
+                    <li><a href="">Home </a></li>
+                    <li><a href="">Loja</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Galeria</a></li>
+                </ol>
+            </nav>
+            <article class="parte">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit in sed laudantium a. Eos vitae, tempora
                     facere
                     repellat incidunt atque aut aspernatur temporibus optio exercitationem architecto magnam beatae
                     ducimus
-                    quisquam.</p>
-
+                    quisquam.
+                </p>
             </article>
-            <article>
-
+            <article class="parte">
+                <ul id="link">
+                    <li >GitHub</li>
+                    <li >Linkedin</li>
+                    <li >Instagram</li>
+                </ul>
+            </article>
+        </section>
+        <section id="section">
+            <article id="article">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit in sed laudantium a. Eos vitae, tempora
+                    facere
+                    repellat incidunt atque aut aspernatur temporibus optio exercitationem architecto magnam beatae
+                    ducimus
+                    quisquam.
+                </p>
+            </article>
+            <article id="article">
                 <p>Nostrum blanditiis voluptatem atque excepturi quo temporibus vitae consectetur numquam minus
-                    doloremque
-                    sunt
-                    tenetur, quia magnam laborum odio voluptate eius eos quis tempora corrupti repellat obcaecati
-                    quidem.
-                    Fuga,
-                    nisi neque.</p>
-
-                <p>Magni incidunt facilis nulla, reprehenderit perspiciatis expedita velit cum, error libero ullam a
-                    sint
-                    obcaecati earum quia ea! Cupiditate animi illum quia quibusdam ex asperiores voluptate, repellendus
-                    eius
-                    perferendis dignissimos.</p>
-
+                    doloremque sunt tenetur, quia magnam laborum odio voluptate eius eos quis tempora corrupti repellat obcaecati
+                </p>
             </article>
-            <article>
+            <article id="article">
                 <p>Odit et deserunt eius dolor tenetur vero beatae facilis corrupti obcaecati temporibus, necessitatibus
                     quaerat, commodi reiciendis dolorum nihil error, fuga cumque neque laudantium quis esse labore?
-                    Exercitationem consectetur id non.</p>
+                </p>
             </article>
-
         </section>
-
-        <section>
-            <figure>
-
+        <section id="section-figure"> 
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 1 </figcaption>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+            </figure>
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 2 </figcaption>
+                <p>quae ab illo inventore veritatis et quasi architecto beatae</p>
+            </figure>
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 3 </figcaption>
+                <p>aspernatur aut odit aut fugit, sed quia </p>
+            </figure>
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 3 </figcaption>
+                <p>aspernatur aut odit aut fugit, sed quia </p>
+            </figure>
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 3 </figcaption>
+                <p>aspernatur aut odit aut fugit, sed quia </p>
+            </figure>
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 3 </figcaption>
+                <p>aspernatur aut odit aut fugit, sed quia </p>
+            </figure>
+            <figure id="figure">
+                <img src="assets/img.jpeg">
+                <figcaption>Image 3 </figcaption>
+                <p>aspernatur aut odit aut fugit, sed quia </p>
             </figure>
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </footer>
 </body>
