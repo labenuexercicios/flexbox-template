@@ -2,3 +2,140 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    height:100%;
+}
+#header{
+    font-size: 22px;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+#btn{
+    font-size: 17px;
+    padding:4px;
+    border-radius:5px;
+    border-style:solid;
+    cursor: pointer;
+}
+#main{
+    font-size: 22px;
+    min-height:76vh;
+    text-align: center;
+    background-color: lightyellow;
+}
+.container{
+    display: flex;
+    background-color:lightgray;
+    text-align: center;
+    gap: 2px;
+    margin:10px;
+    
+    
+}
+.parte{
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 9px;
+    width: 420px;
+     
+}
+.parte > p{
+    width:1000px;
+    height:75px;
+    font-size: 17px;
+    align-items: center;
+}
+#link{
+    text-align: center;
+    text-decoration:none;
+    list-style-type:none;
+    font-size: 20px;
+    font-family: Helvetica;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#link a{
+    text-decoration: none;
+    margin:1px;
+}
+#link li{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+li{
+    border: 1px solid black;
+    padding:10px;
+
+}
+ #parte1{
+    list-style: none;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    font-size: 15px; 
+}
+#section{
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+}
+#article{
+    font-size: 22px;
+    width:445px;
+}
+#section-figure{
+    display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap:11px;
+}
+#figure{
+    width: 129px;
+    height: 231px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:10px;
+     
+} 
+#figure p{
+    width: 128px;
+    height: 94px;
+    font-size: 13px;
+}
+#footer{
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    height:15vh;
+    background-color: orange;
+}
+
+@media screen and (max-width:720px){
+    .parte{
+        display: flex;
+        background-color: aliceblue;
+        border: 1px solid black;
+         
+        justify-content: center;
+        padding: 9px;
+        width: 340px;
+    }
+} 
